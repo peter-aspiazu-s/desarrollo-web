@@ -1,0 +1,41 @@
+.container-home {
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.row-home {
+    padding: 20px 0;
+}
+
+.col1-home h3 {
+    margin-top: 10px;
+}
+
+.col1-home img {
+    width: 200px;
+    border: 1px solid #151d30;
+}
+
+.col2-home {
+    padding: 20px 0;
+}
+
+@media screen and (min-width: 900px){
+    .row-home {
+        display: flex;
+        align-items: center;
+    }
+
+    .col1-home{
+        width: 30%;
+    }
+
+    .col2-home {
+        width: 70%;
+    }
+
+    .col2-home p {
+        text-align: justify;
+    }
+}

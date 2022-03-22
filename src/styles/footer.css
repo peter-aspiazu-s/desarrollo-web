@@ -1,0 +1,10 @@
+footer {
+    background-color: #151d30;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.small-footer a {
+    color: aliceblue;
+    margin-right: 5px;
+}

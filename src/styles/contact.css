@@ -1,0 +1,75 @@
+.container-contacto {
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+    border: 0;
+    font-size: 16px;
+    padding: 5px 5px;
+    color: aliceblue;
+    background-color: #151d30;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: 1px 1px 10px 1px #23355f;
+}
+
+textarea {
+    margin-bottom: 20px;
+    border: 0;
+    font-size: 16px;
+    padding: 5px 5px;
+    color: aliceblue;
+    background-color: #151d30;
+}
+
+textarea:focus{
+    outline: none;
+    box-shadow: 1px 1px 10px 1px #23355f;
+}
+
+
+.btn-input {
+    cursor: pointer;
+}
+
+/* alertas */
+
+alerta-name {
+    background-color: crimson;
+    padding: 20px 10px;
+}
+
+
+.msg-error {
+    background-color: brown;
+    color: aliceblue;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+@media screen and (min-width: 900px){
+    .container-contacto {
+        width: 60%;
+    }
+}
