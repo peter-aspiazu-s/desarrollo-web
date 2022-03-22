@@ -37,7 +37,7 @@ export const AppRouter = () => {
             <Routes>
                 <Route path="/desarrollo-web/proyectos" element={ <Projects /> } />
                 <Route path="/desarrollo-web/contacto" element={ <Contact /> } />
-                <Route path="/desarrollo-web" element={ <Home /> } />
+                <Route path="/desarrollo-web/" element={ <Home /> } />
 
                 <Route path="*" element={ <Home /> } />
             </Routes>

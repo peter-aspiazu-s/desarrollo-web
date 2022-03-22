@@ -52,7 +52,7 @@ export const NavBar = () => {
         <nav className="nav nav-hidden"> 
             
             <Link 
-                className="inicio nav-link nav-active" to="/desarrollo-web" 
+                className="inicio nav-link nav-active" to="/desarrollo-web/" 
                 onClick={ () => {
                     nav = document.querySelector('.nav');
                     nav.classList.toggle('nav-hidden');
