@@ -52,7 +52,7 @@ export const NavBar = () => {
         <nav className="nav nav-hidden"> 
             
             <Link 
-                className="inicio nav-link nav-active" to="/" 
+                className="inicio nav-link nav-active" to="/desarrollo-web" 
                 onClick={ () => {
                     nav = document.querySelector('.nav');
                     nav.classList.toggle('nav-hidden');
@@ -64,7 +64,7 @@ export const NavBar = () => {
                 Inicio
             </Link>
             <Link 
-                className="proyectos nav-link" to="proyectos"
+                className="proyectos nav-link" to="/desarrollo-web/proyectos"
                 onClick={ () => {
                     nav = document.querySelector('.nav');
                     nav.classList.toggle('nav-hidden');
@@ -76,7 +76,7 @@ export const NavBar = () => {
                 Proyectos
             </Link>
             <Link 
-                className="contacto nav-link" to="contacto" 
+                className="contacto nav-link" to="/desarrollo-web/contacto" 
                 onClick={ () => {
                     nav = document.querySelector('.nav');
                     nav.classList.toggle('nav-hidden');
